@@ -1,3 +1,5 @@
+# This repo clone from the original one for my own use and to stop a change i dont need. if you want the link to the original repo read below
+---
 # Slack Dark Theme
 Copyright 2017 Bryan Keller (https://github.com/widget-)
 
