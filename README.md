@@ -63,31 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 ```
-If  you wish to use your own CSS file, clone this repo and use the following code:
+If  you wish to use your own CSS file, clone this repo to your repo and change path to your CSS file
 
-```js
-document.addEventListener('DOMContentLoaded', function() {
-
-  var fs = require('fs'),
-  filePath = '/home/user/slack-dark-theme/docs/slackdarktheme.css';
-
-  fs.readFile(filePath, {encoding: 'utf-8'}, function(err, data) {
-
-  	let customCustomCSS = `
-		  :root {
-		    /* Modify these to change your theme colors: */
-		    --primary: #61AFEF;
-		    --text: #CCC;
-		    --background: #222;
-		    --background-elevated: #222;
-		  }
-		  `
-    if (!err) {
-      var css = document.createElement('style')
-      css.innerText = data+customCustomCSS;
-      document.getElementsByTagName('head')[0].appendChild(css);
-    }
-  })
-});
 ```
 
