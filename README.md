@@ -91,14 +91,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-# Custom Colors
-
-You can edit the following lines in order to change most of the theme colors. NOTE: I haven't tested this changes after I've created my own css colors.
-
-```js
-/* Modify these to change your theme colors: */
-    --primary: #61AFEF;
-    --text: #ABB2BF;
-    --background: #222;
-    --background-elevated: #222;
-```
